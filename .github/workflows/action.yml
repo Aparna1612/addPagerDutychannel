@@ -5,9 +5,9 @@ name: "PagerDuty destination"
 on:
   pull_request:
   push:
-defaults:
-  run:
-    working-directory: terraform
+# defaults:
+#   run:
+#     working-directory: terraform
 
 jobs:
   terraform-plan:
